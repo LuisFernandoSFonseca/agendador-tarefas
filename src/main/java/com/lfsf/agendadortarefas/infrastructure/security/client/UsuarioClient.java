@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 //Usar esse tipo de URL para aplicação que podem ter alteração de url, desse jeito está apontando pra uma variável dentro de apllication.properties
 public interface UsuarioClient {
 
-    @GetMapping
+    @GetMapping("/usuario")
     UsuarioDTO buscaUsuarioPorEmail(@RequestParam("email") String email, @RequestHeader("Authorization") String token);
 }
 
