@@ -3,8 +3,6 @@ package com.lfsf.agendadortarefas.infrastructure.security;
 
 import com.lfsf.agendadortarefas.business.dto.UsuarioDTO;
 import com.lfsf.agendadortarefas.infrastructure.security.client.UsuarioClient;
-import com.lfsf.usuario.infrastructure.entity.Usuario;
-import com.lfsf.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
